@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	char sentence[51] = { 0 };
+	char sentence[51] = { "\0" };
 	
 	printf("문자열을 입력하세요(공백포함 50자까지) : ");
 	fgets(sentence, sizeof(sentence), stdin);
